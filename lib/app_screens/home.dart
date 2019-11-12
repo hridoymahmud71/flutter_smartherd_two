@@ -9,15 +9,49 @@ class Home extends StatelessWidget {
       child:Container(
         alignment: Alignment.center,
         color: Colors.purpleAccent,
-        child: Text(
-            "Flight", textDirection: TextDirection.ltr,
-          style: TextStyle(
-            decoration: TextDecoration.none,
-            fontFamily: 'Raleway',
-            fontStyle: FontStyle.italic,
-            fontWeight: FontWeight.w300,
-            fontSize: 75.0,
-          ),
+        child:Row(
+          children: <Widget>[
+            Expanded(child:
+            Text(
+              "Dhaka", textDirection: TextDirection.ltr,
+              style: TextStyle(
+                decoration: TextDecoration.none,
+                fontFamily: 'Raleway',
+                fontStyle: FontStyle.italic,
+                fontWeight: FontWeight.w300,
+                fontSize: 75.0,
+              ),
+            ),
+            ),
+            Expanded(child:
+            Text(
+              "Shanhai", textDirection: TextDirection.ltr,
+              style: TextStyle(
+                decoration: TextDecoration.none,
+                fontFamily: 'Raleway',
+                fontStyle: FontStyle.italic,
+                fontWeight: FontWeight.w300,
+                fontSize: 75.0,
+              ),
+            ),
+            ),
+            Expanded(child:
+            Text(
+              "Kualalampur", textDirection: TextDirection.ltr,
+              style: TextStyle(
+                decoration: TextDecoration.none,
+                fontFamily: 'Raleway',
+                fontStyle: FontStyle.italic,
+                fontWeight: FontWeight.w300,
+                fontSize: 75.0,
+              ),
+            ),
+            ),
+
+
+
+          ],
+
         ),
       ),
     );
